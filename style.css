@@ -455,7 +455,6 @@ animation: animatedBackground 10s linear infinite alternate;
  
  .home-content h1 {
   font-size: 4rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: linear-gradient(to left, #bd2a2a, rgb(47, 95, 137), #00020c);
   -webkit-background-clip: text;
   color: transparent;
