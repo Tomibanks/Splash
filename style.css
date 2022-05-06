@@ -135,8 +135,7 @@ height: 50%;
 }
 
 .nav-toggle:hover {
- color: rgb(46, 43, 43);
- border: 2px solid rgb(10, 36, 203);
+ color: rgb(21, 17, 128);
 }
 
 @keyframes animatedBackground {
@@ -274,6 +273,7 @@ animation: animatedBackground 10s linear infinite alternate;
  font-weight: 500;
  line-height: 1.4;
  opacity: 70%;
+ list-style: circle;
 }
 
 .card--bg-purple {
@@ -335,7 +335,7 @@ animation: animatedBackground 10s linear infinite alternate;
 .footer-list {
   width: 100%;
   max-width: 1500px;
-  background-color: #151515;
+  background-color: white;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -356,20 +356,21 @@ animation: animatedBackground 10s linear infinite alternate;
 
 .footer-data-social i {
   font-size: var(--h2-font-size);
-  color: white;
+  color: black;
+  margin: 2px;
 }
 
 .footer-data h2 {
   font-weight: bold;
   font-size: var(--h2-font-size);
   line-height: 1.5rem;
-  color: white;
+  color: black;
   margin-bottom: 1rem;
   text-transform: capitalize;
 }
 
 .footer-data p {
-  color: white;
+  color: black;
   font-weight: 400;
   line-height: 1.5rem;
   text-align: center;
@@ -378,6 +379,8 @@ animation: animatedBackground 10s linear infinite alternate;
 .footer .copy {
   text-align: center;
   padding: 1rem 0;
+  background-color: black;
+  color: white;
 }
 
 .footer .copy p {
@@ -452,6 +455,7 @@ animation: animatedBackground 10s linear infinite alternate;
  
  .home-content h1 {
   font-size: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: linear-gradient(to left, #bd2a2a, rgb(47, 95, 137), #00020c);
   -webkit-background-clip: text;
   color: transparent;
@@ -506,16 +510,3 @@ animation: animatedBackground 10s linear infinite alternate;
   grid-template-columns: unset;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
