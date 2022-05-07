@@ -28,10 +28,10 @@ html {
 }
 
 body {
- background-color: var(--white-color);
  font-size: var(--normal-font-size);
  font-family: var(--font-body);
  overflow-x: hidden;
+ transition: all .4s ease-in-out;
 }
 
 .btn {
@@ -356,7 +356,7 @@ animation: animatedBackground 10s linear infinite alternate;
 
 .footer-data-social i {
   font-size: var(--h2-font-size);
-  color: black;
+  color: rgb(45, 74, 114);
   margin: 2px;
 }
 
