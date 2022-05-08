@@ -457,7 +457,7 @@ body {
 
 .home-content h1 {
   font-size: 4rem;
-  background: linear-gradient(to left, #bd2a2a, rgb(47, 95, 137), #00020c);
+  background: linear-gradient(to left, #fa0505, rgb(120, 136, 149), #e2e3eb);
   -webkit-background-clip: text;
   color: transparent;
   padding: 0 2rem;
@@ -466,7 +466,7 @@ body {
 
 .home-content p {
   padding: 0 2rem;
-background: linear-gradient(to left, #e00707, rgb(10, 27, 42), #00030f);
+background: linear-gradient(to left, #ec0808, rgb(236, 238, 240), #f4f5f7);
 -webkit-background-clip: text;
 color: transparent;
   font-weight: bolder;

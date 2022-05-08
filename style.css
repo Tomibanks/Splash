@@ -478,7 +478,7 @@ animation: animatedBackground 10s linear infinite alternate;
  
  .home-content h1 {
   font-size: 4rem;
-  background: linear-gradient(to left, #bd2a2a, rgb(47, 95, 137), #00020c);
+  background: linear-gradient(to left, #dd0d0d, rgb(47, 95, 137), #e5e6ec);
   -webkit-background-clip: text;
   color: transparent;
   padding: 0 2rem;
@@ -487,7 +487,7 @@ animation: animatedBackground 10s linear infinite alternate;
  
  .home-content p {
   padding: 0 2rem;
-  background: linear-gradient(to left, #e00707, rgb(10, 27, 42), #00030f);
+  background: linear-gradient(to left, #ff0707, rgb(189, 194, 199), #f6f7fa);
   -webkit-background-clip: text;
   color: transparent;
   font-weight: bolder;
