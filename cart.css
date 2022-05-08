@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,500;1,200;1,300&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,500;1,200;1,300&display=swap");
 
 :root {
  --header-height: 5rem;
@@ -103,7 +103,7 @@ body {
  /*border: 1px solid;
   background-color: black;
   padding: 5px 8px;
-  border-radius: 40px;*/
+  border-radius: 40px;
 }
 
 .nav-link::before {
@@ -189,7 +189,7 @@ body {
  flex-grow: 1;
  text-align: end;
 }
-/* Start Footer Section */
+/* Start Footer Section 
 
 .footer-list {
  width: 100%;
@@ -252,7 +252,7 @@ body {
  line-height: 1rem;
 }
 
-/* End Footer Section */
+/* End Footer Section 
 
 .btn {
  text-align: center;
@@ -528,4 +528,4 @@ body {
  .footer-list {
   grid-template-columns: unset;
  }
-}
+} */

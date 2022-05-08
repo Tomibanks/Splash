@@ -122,7 +122,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
- color: rgb(26, 50, 230);
+ color: black;
 }
 
 .nav-toggle {
@@ -151,6 +151,82 @@ body {
 
 .nav a:hover {
  background-color: rgba(255, 255, 255, .3)
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Splash/pexels-sourav-mishra-1231622.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: animatedBackground 10s linear infinite alternate;
+  /*border-radius: 250px 0 150px 0;*/
+}
+
+.home .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .home-content {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home-content h1 {
+  font-family: cursive;
+  text-align: justify;
+  font-size: 5rem;
+  line-height: 6.5rem;
+  letter-spacing: 4px;
+  background: linear-gradient(to left, #e00707, rgb(45, 90, 129), #00030f);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.home-content p {
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+  background: linear-gradient(to left, #e00707, rgb(10, 27, 42), #00030f);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+/* End Home Section */
+
+@keyframes animatedBackground {
+  from {
+    background-position: 50% 0;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+.small-img {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  background: url("./background/pexels-pixabay-50677.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  animation: animatedBackground 10s linear infinite alternate;
 }
 
 /* Start About Section */
@@ -243,6 +319,18 @@ body {
 }
 
 /* End About Section */
+
+.small-image {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  background: url("./background/pexels-jill-burrow-6858611.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  animation: animatedBackground 10s linear infinite alternate;
+}
 
 /* Start Footer Section */
 
@@ -354,6 +442,51 @@ body {
  .nav-toggle {
   display: block;
  }
+
+.home .home-img img {
+  display: none;
+}
+
+.home .home-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content h1 {
+  font-size: 4rem;
+  background: linear-gradient(to left, #bd2a2a, rgb(47, 95, 137), #00020c);
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 0 2rem;
+  padding-top: 50px;
+}
+
+.home-content p {
+  padding: 0 2rem;
+background: linear-gradient(to left, #e00707, rgb(10, 27, 42), #00030f);
+-webkit-background-clip: text;
+color: transparent;
+  font-weight: bolder;
+}
+
+.home-content a {
+  padding: 0 2rem;
+}
+
+.btn {
+  padding: auto;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background-color: rgb(55, 54, 54);
+  color: black;
+}
 
  .about-detail-content {
   grid-template-columns: unset;
