@@ -471,7 +471,7 @@ body {
  font-size: 1.75em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
  .nav-menu {
   position: absolute;
   top: 0;
@@ -516,6 +516,14 @@ body {
  .nav-toggle {
   display: block;
  }
+
+ .container {
+   max-width: 200px;
+ }
+
+.about-band-image {
+  float: none;
+}
 
  .footer-list {
   grid-template-columns: unset;
