@@ -349,7 +349,7 @@ animation: animatedBackground 10s linear infinite alternate;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  animation: animatedBackground 10s linear infinite alternate;
+/*animation: animatedBackground 10s linear infinite alternate;*/
 }
 
 /* Start Footer Section */
