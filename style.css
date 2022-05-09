@@ -171,7 +171,7 @@ height: 50%;
 .home {
  width: 100%;
  height: 100vh;
- background-image: url(./background/1166628.jpg);
+ background-image: url(./Images/pexels-adrienn-1460742.jpg);
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
@@ -201,7 +201,7 @@ height: 50%;
  font-size: 5rem;
  line-height: 6.5rem;
  letter-spacing: 4px;
-background: linear-gradient(to left, #e00707, rgb(45, 90, 129), #00030f);
+background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
 -webkit-background-clip: text;
 color: transparent;
  margin-bottom: 1.5rem;
@@ -213,7 +213,7 @@ color: transparent;
  text-align: justify;
  line-height: 1.5rem;
  letter-spacing: 2px;
-background: linear-gradient(to left, #680606, rgb(10, 27, 42), #00030f);
+background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
 -webkit-background-clip: text;
 color: transparent;
  font-weight: bolder;
@@ -478,16 +478,16 @@ animation: animatedBackground 10s linear infinite alternate;
  
  .home-content h1 {
   font-size: 4rem;
-  background: linear-gradient(to left, #dd0d0d, rgb(47, 95, 137), #e5e6ec);
-  -webkit-background-clip: text;
-  color: transparent;
+background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
+-webkit-background-clip: text;
+color: transparent;
   padding: 0 2rem;
   padding-top: 50px;
  }
  
  .home-content p {
   padding: 0 2rem;
-  background: linear-gradient(to left, #ff0707, rgb(189, 194, 199), #f6f7fa);
+  background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
   -webkit-background-clip: text;
   color: transparent;
   font-weight: bolder;

@@ -186,7 +186,7 @@ body {
   font-size: 5rem;
   line-height: 6.5rem;
   letter-spacing: 4px;
-  background: linear-gradient(to left, #e00707, rgb(45, 90, 129), #00030f);
+  background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: 1.5rem;
@@ -198,9 +198,9 @@ body {
   text-align: justify;
   line-height: 1.5rem;
   letter-spacing: 2px;
-  background: linear-gradient(to left, #e00707, rgb(10, 27, 42), #00030f);
-  -webkit-background-clip: text;
-  color: transparent;
+background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
+-webkit-background-clip: text;
+color: transparent;
   font-weight: bolder;
   margin-bottom: 1.5rem;
 }
@@ -324,7 +324,7 @@ body {
   width: 100%;
   height: 100vh;
   border: none;
-  background: url("./background/pexels-jill-burrow-6858611.jpg");
+  background: url("./Images/pexels-pixabay-261045.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -457,16 +457,16 @@ body {
 
 .home-content h1 {
   font-size: 4rem;
-  background: linear-gradient(to left, #fa0505, rgb(120, 136, 149), #e2e3eb);
-  -webkit-background-clip: text;
-  color: transparent;
+background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
+-webkit-background-clip: text;
+color: transparent;
   padding: 0 2rem;
   padding-top: 50px;
 }
 
 .home-content p {
   padding: 0 2rem;
-background: linear-gradient(to left, #ec0808, rgb(236, 238, 240), #f4f5f7);
+background: linear-gradient(to left, #c9c8c9, rgb(219, 222, 224), #e3e3e3);
 -webkit-background-clip: text;
 color: transparent;
   font-weight: bolder;
