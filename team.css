@@ -156,7 +156,7 @@ body {
 .home {
  width: 100%;
  height: 100vh;
- background-image: url(./background/pexels-martin-lopez-2157168.jpg);
+ background-image: url(./Images/pexels-adrienn-1460742.jpg);
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
@@ -467,7 +467,7 @@ body {
 
  .home-content p {
   padding: 0 2rem;
-  background: linear-gradient(to left, #191819, rgb(55, 56, 57), #e3e3e3);
+  background: linear-gradient(to left, #eae8ea, rgb(237, 238, 240), #e3e3e3);
   -webkit-background-clip: text;
   color: transparent;
   font-weight: bolder;
