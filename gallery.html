@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Gallery</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+ <header class="header" id="header">
+  <div class="navbar">
+   <div class="logo">
+    <img style="height: 60px; cursor: pointer;" src="Logo/logo3.jpg" alt="">
+   </div>
+   <nav class="nav-menu" id="nav-menu">
+    <ul class="nav-list">
+     <li><a href="index.html" class="nav-link active">home</a></li>
+     <li><a href="packages.html" class="nav-link">packages</a></li>
+     <li><a href="team.html" class="nav-link">team</a></li>
+     <li><a href="gallery.html" class="nav-link">gallery</a></li>
+     <li><a href="#review" class="nav-link">review</a></li>
+     <li><a href="pay.html" class="nav-link">store</a></li>
+    </ul>
+   </nav>
+   <div class="nav-toggle" id="nav-toggle">
+    <i class="fa fa-bars"></i>
+   </div>
+  </div>
+ </header>
+
+  <div class="container">
+   <h1>Splash Gallery</h1>
+   <div class="image-container">
+    <div class="image"><img src="./background/pexels-cottonbro-9632574.jpg" alt=""></div>
+     <div class="image"><img src="./background/pexels-pixabay-50677.jpg" alt=""></div>
+      <div class="image"><img src="./background/pexels-sergio-souza-1936954.jpg" alt=""></div>
+       <div class="image"><img src="./background/pexels-jill-burrow-6858611.jpg" alt=""></div>
+        <div class="image"><img src="./background/pexels-laker-5792842.jpg" alt=""></div>
+         <div class="image"><img src="./Images/pexels-kindel-media-8688609.jpg" alt=""></div>
+   </div>
+
+   <div class="popup">
+    <span>&times;</span>
+    <img src="./SwimmingPool/wp1906294-swimming-pool-wallpapers.jpg" alt="">
+   </div>
+
+  </div>
+
+ <!-- Start Footer Section -->
+ <footer class="footer" id="contact">
+  <div class="footer-list">
+   <div class="footer-data">
+    <h1><a href=""><img style="height: 50px;" src="./Logo/logo3.jpg"></a></h1>
+    <div class="footer-data-social">
+     <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+     <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+     <a href=""><i class="fa fa-twitter" aria-hidden="true"></i>
+     </a>
+    </div>
+   </div>
+   <div class="footer-data">
+    <h2>address</h2>
+    <p>Somewhere in London<br> Somewhere in Nigeria too</p>
+   </div>
+   <div class="footer-data">
+    <h2>We Open</h2>
+    <p>Monday To Friday <br> From 09:00am To 6:00pm</p>
+   </div>
+   <div class="footer-data">
+    <h2>Contact</h2>
+    <p>08105950658</p>
+    <p>09012200320</p>
+   </div>
+  </div>
+  <div class="copy">
+   <p>&copy;2022 Splash. All Rights Reserved</p>
+  </div>
+ </footer>
+ <!-- End Footer Section -->
+ <script src="main.js"></script>
+ <script>
+  document.querySelectorAll('.image-container img').forEach(image =>
+  {image.onclick = () => { 
+   document.querySelector('.popup').style.display = 'block';
+   document.querySelector('.popup img').src = image.getAttribute('src');
+  }
+  });
+
+ document.querySelector('.popup span').onclick = () => {
+  document.querySelector('.popup').style.display = 'none';
+ }
+
+ </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
